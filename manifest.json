@@ -1,0 +1,59 @@
+{
+  "name": "مركز الأعشاب — الطب البديل مع أيوب الحسون",
+  "short_name": "أعشاب الحسون",
+  "description": "موسوعة الأعشاب والطب البديل من محتوى خبير الأعشاب أيوب الحسون: أعشاب، خلطات مجرّبة، أمراض وحميات، دليل أعراض، حاسبات صحية، برامج علاج وقائمة عطار — يعمل بدون إنترنت.",
+  "id": "ayoub-herbs-pwa",
+  "dir": "rtl",
+  "lang": "ar",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1b4332",
+  "theme_color": "#1b4332",
+  "categories": ["health", "medical", "education", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "الأعشاب",
+      "short_name": "أعشاب",
+      "url": "./index.html#/herbs",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "الخلطات العلاجية",
+      "short_name": "خلطات",
+      "url": "./index.html#/mixtures",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "فيديوهات القناة",
+      "short_name": "فيديوهات",
+      "url": "./index.html#/videos",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "الأمراض",
+      "short_name": "أمراض",
+      "url": "./index.html#/diseases",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "دليل الأعراض",
+      "short_name": "أعراض",
+      "url": "./index.html#/symptoms",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "أدوات وحاسبات",
+      "short_name": "أدوات",
+      "url": "./index.html#/tools",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
